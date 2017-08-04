@@ -8,4 +8,13 @@
     <PackageReference Include="Dapper" Version="1.50.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EbookShare.CrossCutting\EbookShare.CrossCutting.csproj" />
+    <ProjectReference Include="..\EbookShare.Domain.Compartilhamento\EbookShare.Domain.Compartilhamento.csproj" />
+    <ProjectReference Include="..\EbookShare.Domain.Redacao\EbookShare.Domain.Redacao.csproj" />
+    <ProjectReference Include="..\EbookShare.Domain.Revisao\EbookShare.Domain.Revisao.csproj" />
+    <ProjectReference Include="..\EbookShare.Domain.SharedKernel\EbookShare.Domain.SharedKernel.csproj" />
+    <ProjectReference Include="..\EbookShare.Models\EbookShare.Models.csproj" />
+  </ItemGroup>
+
 </Project>

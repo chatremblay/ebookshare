@@ -1,7 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EbookShare.CrossCutting\EbookShare.CrossCutting.csproj" />
+    <ProjectReference Include="..\EbookShare.Domain.Compartilhamento\EbookShare.Domain.Compartilhamento.csproj" />
+    <ProjectReference Include="..\EbookShare.Domain.Redacao\EbookShare.Domain.Redacao.csproj" />
+    <ProjectReference Include="..\EbookShare.Domain.Revisao\EbookShare.Domain.Revisao.csproj" />
+    <ProjectReference Include="..\EbookShare.Domain.SharedKernel\EbookShare.Domain.SharedKernel.csproj" />
+    <ProjectReference Include="..\EbookShare.Infrastructure\EbookShare.Infrastructure.csproj" />
+    <ProjectReference Include="..\EbookShare.Models\EbookShare.Models.csproj" />
+  </ItemGroup>
 
 </Project>
