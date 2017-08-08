@@ -6,7 +6,7 @@ namespace EbookShare.Infrastructure.Repositorios.SharedKernel
     {
         public Livro ObterLivro(int id)
         {
-            return new Livro();
+            return new Livro() { Isbn = 1, Nome = "O senhor dos anéis" };
         }
     }
 }
