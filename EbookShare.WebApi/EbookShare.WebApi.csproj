@@ -10,7 +10,6 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
-    <PackageReference Include="SwashBuckle.AspNetCore.MicrosoftExtensions" Version="0.2.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EbookShare.Application\EbookShare.Application.csproj" />

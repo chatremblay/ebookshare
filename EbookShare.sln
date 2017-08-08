@@ -29,9 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EbookShare.Domain.SharedKer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EbookShare.CrossCutting", "EbookShare.CrossCutting\EbookShare.CrossCutting.csproj", "{20243830-639D-45FB-9081-6A0429F1D427}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Testes", "5. Testes", "{2308BD92-6AC1-4C59-81F3-9B5F0A98B859}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Tests", "5. Tests", "{2308BD92-6AC1-4C59-81F3-9B5F0A98B859}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EbookShare.Infrastucture.Testes", "EbookShare.Infrastucture.Testes\EbookShare.Infrastucture.Testes.csproj", "{D5934405-442E-4BBF-A4A3-98526BA82D23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EbookShare.Infrastucture.Testes", "EbookShare.Infrastucture.Testes\EbookShare.Infrastucture.Testes.csproj", "{D5934405-442E-4BBF-A4A3-98526BA82D23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
